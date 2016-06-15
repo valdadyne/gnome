@@ -1,12 +1,10 @@
-.heading {
-  background-color: #373737;
-  height: 200px;
-}
-.title{color:yellow;}
-.info{color:white;}
-.big-img{
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400);
+
+body {padding-left: 12px;padding-right: -12px;}
+.heading {background-color: #373737;height: 180px;}
+.title{color:yellow;font-family: 'Fira Sans', sans-serif;font-size: 48px;text-align:center;margin:0;}
+.info{color:white;text-align:center;margin:0;}
+.big-img{-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+.marketing,h2{font-family: 'Fira Sans', sans-serif;}
+.tag{height:30px;width:350px;box-sizing: border-box;border-top:1px solid black;border-bottom:1px solid black;text-align: center;margin-top: 5px;}
+.section,img {margin-top: 5px;margin-left: 5px; margin-right: 5px;vertical-align: middle;text-align: center;}
