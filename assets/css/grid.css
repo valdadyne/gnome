@@ -1,0 +1,21 @@
+body {
+  margin: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.wrapper {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 5px;
+  background-color: #fff;
+  color: #444;
+}
+.heading{
+  grid-column:1/4;
+  grid-row:1/2;
+}
+.big-img{
+  grid-column: 1/4;
+  grid-row: 2/2;
+}

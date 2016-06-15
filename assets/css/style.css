@@ -1,0 +1,12 @@
+.heading {
+  background-color: #373737;
+  height: 200px;
+}
+.title{color:yellow;}
+.info{color:white;}
+.big-img{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
