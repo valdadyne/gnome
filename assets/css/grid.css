@@ -36,3 +36,5 @@
   .remarks{display:grid;grid-column:1/span 6;grid-row:9}
 
   .footer{display:grid;grid-column:1/span 6;grid-row:10}
+
+  .empty{display:grid;grid-column:1/span 6;grid-row:11}
